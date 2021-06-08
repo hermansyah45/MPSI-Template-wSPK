@@ -65,7 +65,8 @@ header("location: about.php");
 			</div>
 			
                 <button type="submit" name ="submit" class="btn btn-primary">Simpan</button>
-          <?php			
+          <?php
+          
                     if(isset($_POST['submit'])){
                     $idgejala     = $_POST['idgejala'];
                     $gejala       = $_POST['gejala'];
@@ -79,6 +80,7 @@ header("location: about.php");
                             header('location:gejala.php');
                     }
                 ?>
+                
 		</form>		
     </div>
   </div>

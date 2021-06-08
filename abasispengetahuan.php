@@ -37,14 +37,15 @@ include "session.php";
   <div class="row content">
     <?php include('menuadmin.php');?>
     <div class="col-sm-8 text-left"> 
-        <h2 class="text-center">KEPUTUSAN</h2>
+        <h2 class="text-center">Persyaratan Beasiswa</h2>
         <form id="form1" name="form1" method="post" action="abasispengetahuan.php">
 				
               </form>
         <br><form id="form1" name="form1" method="post">
-				<label for="sel1">Penyakit</label>            
+				<label for="sel1">Beasiswa</label>            
 				<select required class="form-control" name="penyakit">
-				<option value ="">Penyakit</option>
+				<option value ="">BIDIKMISI</option>
+        <option value ="">PPA</option>
                <?php 
  			        $tampil="select * from penyakit";
 			        $query1= mysqli_query($konek_db,$tampil);
@@ -54,7 +55,7 @@ include "session.php";
 					?>
   		</select>
  
-        <br><label for="sel2">GEJALA</label><br>
+        <br><label for="sel2">-</label><br>
     <form id="form2" name="form2" method="post" action="diagnosa.php">
     <div class="panel panel-primary">
        

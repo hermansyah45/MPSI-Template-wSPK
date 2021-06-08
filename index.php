@@ -43,16 +43,17 @@ header("location: about.php");
   <div class="row content">
     <?php include('menu.php');?>
     <div class="col-sm-8 text-left"> 
-      <center><h2>DIAGNOSA PENYAKIT TANAMAN KELAPA SAWIT
+      <center><h2> Sistem Informasi Beasiswa
 </h2></center><br>
         <div class="panel panel-info">
                 <div class="panel-heading"></div>
                 <div class="panel-body">
                     <p align=justify>
                      </p>
+                     <p class="text-center">Selamat datang.Silahkan pilih menu yang diinginkan</p>
             </div>
         </div>
-        <p class="text-center">Selamat datang.Silahkan pilih menu yang diinginkan</p>
+      
     </div>
   </div>
 </div>

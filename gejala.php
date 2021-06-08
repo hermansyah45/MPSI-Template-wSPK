@@ -9,7 +9,7 @@ header("location: about.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Daftar Gejala</title>
+  <title>-</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -43,7 +43,7 @@ header("location: about.php");
   <div class="row content">
     <?php include('menuadmin.php');?>
     <div class="col-sm-8 text-left"> 
-          <h2 class="text-center">DAFTAR GEJALA</h2>
+          <h2 class="text-center">-</h2>
       <!--<form id="form1" name="form1" method="post" action="gejala.php">
 				<label for="sel1">Jenis Tanaman</label>            
 				<select class="form-control" name="tanaman" onChange='this.form.submit();'>
@@ -61,10 +61,10 @@ header("location: about.php");
                 <table id="example1" class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>NO</th>
-                            <th>ID Gejala</th>
-							              <th>Gejala</th>
-                            <th>Detail</th>
+                            <th>-</th>
+                            <th>-</th>
+							              <th>-</th>
+                            <th>-</th>
                         </tr>
                     </thead>
                      <?php

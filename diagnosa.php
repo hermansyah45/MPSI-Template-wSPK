@@ -44,7 +44,7 @@ header("location: about.php");
   <div class="row content">
     <?php include('menu.php');?>
     <div class="col-sm-8 text-left"> 
-      <center><h2>DIAGNOSA PENYAKIT</h2></center>
+      <center><h2>-</h2></center>
         <form id="form1" name="form1" method="post" action="diagnosa.php">
 				
               </form>
@@ -64,18 +64,18 @@ header("location: about.php");
  			
         
         <br>
-        <button type="submit" name ="submit" onclick="return checkDiagnosa()" class="btn btn-primary">CEK PENYAKIT</button><br><br>
+        <button type="submit" name ="submit" onclick="return checkDiagnosa()" class="btn btn-primary">-</button><br><br>
             <div class="panel panel-info">
-                <div class="panel-heading">HASIL DIAGNOSA</div>
+                <div class="panel-heading">-</div>
                 <div class="panel-body">
             <div class="box-body table-responsive">
                 <table id="example1" class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>NO</th>
-                            <th>ID PENYAKIT</th>
-							              <th>Nama Penyakit</th>
-                            <th>Detail</th>
+                            <th>-</th>
+                            <th>-</th>
+							              <th>-</th>
+                            <th>-</th>
                         </tr>
                     </thead>
          <?php			

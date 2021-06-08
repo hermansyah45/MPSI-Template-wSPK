@@ -37,7 +37,7 @@ include "session.php";
   <div class="row content">
     <?php include('menuadmin.php');?>
     <div class="col-sm-8 text-left"> 
-       <center><h2>DIAGNOSA PENYAKIT TANAMAN KELAPA SAWIT
+       <center><h2>-
 </h2></center><br>
       <p class="text-center">Selamat datang <?php echo $login_session; ?>.Silahkan pilih menu yang diinginkan</p>
     </div>

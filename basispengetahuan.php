@@ -42,7 +42,7 @@ $(document).ready( function () {
   <div class="row content">
     <?php include('menuadmin.php');?>
     <div class="col-sm-8 text-left"> 
-        <h2 class="text-center">KEPUTUSAN</h2>
+        <h2 class="text-center">-</h2>
         
 <br>
 <a href="abasispengetahuan.php"><button type="button" class="btn btn-default">
@@ -53,11 +53,11 @@ $(document).ready( function () {
                 <table id="example1" class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>NO</th>
-                            <th>ID Penyakit</th>
-						              	<th>Nama Penyakit</th>
-                            <th>Gejala</th>
-                            <th>Detail</th>
+                            <th>-</th>
+                            <th>-</th>
+						              	<th>-</th>
+                            <th>-</th>
+                            <th>-</th>
                         </tr>
                     </thead>
                      <?php
