@@ -45,7 +45,7 @@ header("location: about.php");
   <div class="row content">
     <?php include('menuadmin.php');?>
     <div class="col-sm-8 text-left">
-        <h2 class="text-center">INPUT GEJALA</h2>
+        <h2 class="text-center">Hello World </h2>
       <form class="form-horizontal" data-toggle="validator" role="form" method="post" action="ainputgejala.php">
           <div class="form-group has-feedback">
 				<label class="control-label col-sm-2" for="nama">ID Gejala:</label>
