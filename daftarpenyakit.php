@@ -8,7 +8,7 @@ header("location: about.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Daftar Penyakit</title>
+  <title>Nilai</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -40,7 +40,7 @@ header("location: about.php");
   <div class="row content">
     <?php include('menu.php');?>
     <div class="col-sm-8 text-left"> 
-      <h2 class="text-center">DAFTAR PENYAKIT</h2>
+      <h2 class="text-center">Indeks Prestasi</h2>
       <form id="form1" name="form1" method="post" action="daftarpenyakit.php">
 			
   </form>
@@ -51,8 +51,8 @@ header("location: about.php");
                     <thead>
                         <tr>
                             <th>NO</th>
-                            <th>ID Penyakit</th>
-							            <th>Nama Penyakit</th>
+                            <th>Matakuliah</th>
+							            <th>Dosen</th>
                             <th>Detail</th>
                         </tr>
                     </thead>
